@@ -1,0 +1,42 @@
+正常情况测试
+test add_administrator(): 
+add_administrator(ttt,thth,123,2) 
+add administrator successfully 
+ttt|thth|123|2 = ttt|thth|123|2
+add_administrator() ture 
+
+
+test edit_administrator(): 
+edit_administrator(ttt,thth,change,2) 
+edit administrator successfully 
+ttt|ththchange|2 = ttt|thth|change|2 
+add_administrator() ture 
+
+
+test del_administrator(): 
+del_administrator(ttt) 
+del administrator successfully 
+tttdoes not exist 
+del_administrator() ture 
+
+$yes = 'ture', 上述本块所有测试均正确
+
+
+
+异常情况测试
+非法添加：
+test add_administrator(): 
+add_administrator(ttt,thth,123,2) 添加两次，是否有错误提示： 
+Error,the administrator has already exist 
+add_administrator() ture 
+
+
+非法删除：
+test check_administrator(temp)，是否有错误提示： 
+test del_administrator(): 
+Error,the news does not exist 
+有错误提示，del_administrator() true 
+$yes = 'ture', 上述本块所有测试均正确
+
+
+

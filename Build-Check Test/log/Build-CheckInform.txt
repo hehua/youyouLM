@@ -1,0 +1,43 @@
+发布通知
+test add_inform(): 
+add_inform(ttt,2011-01-09 16:29:58,123,15017581276,1) 
+add inform successfully 
+ttt|2011-01-09 16:29:58|123|15017581276|1 = ttt|2011-01-09 16:29:58|123|15017581276|1
+add_inform() ture 
+
+
+test edit_inform(): 
+edit_inform(ttt,2011-01-09 16:29:58,15017581276,ttt,2011-01-09 16:29:58,change,15017581276,1) 
+edit inform successfully 
+ttt|2011-01-09 16:29:58change|15017581276|1 = ttt|2011-01-09 16:29:58|change|15017581276|1 
+add_inform() ture 
+
+
+test del_inform(): 
+del_inform(ttt,2011-01-09 16:29:58,15017581276) 
+del inform successfully 
+ttt-2011-01-09 16:29:58-15017581276-does not exist 
+del_inform() ture 
+
+$yes = 'ture', 上述本块所有测试均正确
+
+
+
+异常情况测试
+发布异常：
+test add_inform(): 
+add_inform(ttt,2011-01-09 16:29:58,123,15017581276,1) 添加两次，是否有错误提示： 
+Error,the inform has already exist 
+add_inform() ture 
+
+
+非法删除：
+test check_inform(temp)，是否有错误提示： 
+test del_inform(): 
+Error,the inform does not exist 
+有错误提示，del_inform() true 
+
+$yes = 'ture', 上述本块所有测试均正确
+
+
+

@@ -1,0 +1,38 @@
+正常情况测试
+test add_employ(): 
+add_employ(ttt,thth,123,15017581276,756257670@qq.com) 
+add employ successfully 
+ttt|thth|123|15017581276|756257670@qq.com = ttt|thth|123|15017581276|756257670@qq.com
+add_employ() ture 
+
+
+test edit_employ(): 
+edit_employ(ttt,thth,change,15017581276,756257670@qq.com) 
+edit employ successfully 
+ttt|ththchange|15017581276|756257670@qq.com = ttt|thth|change|15017581276|756257670@qq.com 
+add_employ() ture 
+
+
+test del_employ(): 
+del_employ(ttt) 
+del employ successfully 
+tttdoes not exist 
+del_employ() ture 
+
+$yes = 'ture', 上述本块所有测试均正确
+
+
+
+异常情况测试
+非法添加：
+test add_employ(): 
+add_employ(ttt,thth,123,15017581276,756257670@qq.com) 添加两次，是否有错误提示： 
+Error,the employ has already exist 
+add_employ() ture 
+
+
+非法删除：
+test check_employ(temp)，是否有错误提示： 
+test del_employ(): 
+Error,the news does not exist 
+有错误提示，del_employ() true 
