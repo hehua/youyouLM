@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<script src="js/prototype.js" type="text/javascript"></script>
+<script src="js/Login.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="css/login.css" />
+<title>东校区图书馆助理登陆平台</title>
+</head>
+<body >
+<div class="content">
+       <div class='title'>东校区图书馆助理登陆平台</div>
+       <div class="signup_box">
+               <form action="codepass.php" enctype="multipart/form-data" method="post" id="form">
+                   
+                   <div class="info_line">
+                   <span class="info">用户名：</span> 
+                    <input class="info2" name="name" id="name" type="text" size="20"/><BR>
+                   </div>
+                   
+                   <div class="info_line">
+                   <span class="info" class="info" id="input_info2">密码：</span> 
+                   <input class="info2" name="password" id="password" type="password" size="20"/><br>
+                   </div>
+                   
+                   <div class="info_line">
+                   <span class="info3" id="input_info2"> 验证码：</span> 
+                   <input class="info4" name="vc"  id="vc" type="text" maxlength="4" size="8" />
+                   <img class="valid_img" id="validationImage" src="ValidationCode.php" style="cursor:pointer"  onclick="this.src='ValidationCode.php?'+new Date().getTime()"; alt="点击图片更换" /><br/>
+                   </div>
+                   
+                   <input class="button" type="button" name="login" value="登录"  onclick="checkLogin();"/>
+                   <input class="button2" type="reset" name="reset" value="重置"/>
+                   
+               </form>
+               
+       </div>
+ </div>
+
+ </body>
+ </html> 
+

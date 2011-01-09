@@ -1,0 +1,83 @@
+
+
+
+
+.myinform{
+	width:300px;
+	clear:left;
+	float:left;
+	margin-top:50px;
+	margin-left:50px;
+	text-align:left;
+}
+
+.newslist_title{
+	width:300px;
+	height:40px;
+	clear:left;
+	float:left;
+	font:20px/40px "Î¢ÈíÑÅºÚ";
+	font-weight:bold;
+	text-align:left;
+}
+
+
+.single_news{
+	width:300px;
+	height:30px;
+	clear:left;
+	float:left;
+	margin-top:0px;
+}
+
+
+.news_title{
+	width:300px;
+	height:30px;
+	clear:left;
+	float:left;
+	font:15px/30px "Î¢ÈíÑÅºÚ";
+	text-align:left;
+}
+
+
+
+.news_title a{
+	color:black;
+	text-decoration:none;
+}
+
+.news_title a:hover{
+	color:orange;
+}
+
+
+.mydata{
+	width:300px;
+	float:left;
+	margin-left:100px;
+	margin-top:30px;
+}
+
+
+.mydata_title{
+	clear:left;
+	float:left;
+	width:300px;
+	height:40px;
+	font:20px/40px "Î¢ÈíÑÅºÚ";
+	font-weight:bold;
+	txet-align:center;
+}
+
+.mydata_line{
+	clear:left;
+	float:left;
+	width:300px;
+	height:30px;
+	font:15px/30px "Î¢ÈíÑÅºÚ";
+	font-weight:bold;
+	txet-align:center;
+}
+
+

@@ -1,0 +1,70 @@
+@CHARSET "gb2312";
+body{
+	margin:0 auto;
+	background-color:#f6f4e4;
+}
+
+
+.banner{
+	width:1024px/100%;
+	height:70px;
+	background-image:url("banner_back.jpg");
+	margin:0 auto;
+}
+
+.banner_center{
+	width:1024px;
+	height:70px;
+	background-image:url("banner.jpg");
+	margin:0 auto;
+}
+
+.head1{
+	width:1024px;
+	height:70px;
+	font:32px/70px "Î¢ÈíÑÅºÚ";
+	color:black;
+	font-weight:bold;
+	float:left;
+	text-align:center;
+}
+
+
+
+.daohang{
+	width:1024px/100%;
+	height:35px;
+	background-image:url("daohang_back.jpg");
+	margin:0 auto;
+}
+
+.daohang_center{
+	width:1024px;
+	height:35px;
+	background-image:url("daohang.jpg");
+	margin:0 auto;
+	text-align:center;
+}
+
+#daohang_a a{
+	text-decoration:none;
+	color:white;
+	font:13px/35px "Î¢ÈíÑÅºÚ";
+	color:#000000;
+}
+
+#daohang_a a:hover{
+	color:#730707;
+}
+
+.daohang_words{
+	margin-left:45px;
+}
+
+
+
+
+.content{
+	width:1024px;
+	margin:0 auto;
+}

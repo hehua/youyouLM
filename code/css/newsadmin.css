@@ -1,0 +1,86 @@
+
+.newslist{
+	width:300px;
+	clear:left;
+	float:left;
+	margin-top:50px;
+	margin-left:30px;
+	text-align:left;
+}
+
+.newslist_title{
+	width:300px;
+	height:40px;
+	clear:left;
+	float:left;
+	font:20px/40px "Î¢ÈíÑÅºÚ";
+	font-weight:bold;
+	text-align:center;
+}
+
+.single_news{
+	width:300px;
+	height:52px;
+	clear:left;
+	float:left;
+	margin-top:0px;
+	border:1px solid gray;
+}
+
+
+.news_title{
+	width:300px;
+	height:30px;
+	clear:left;
+	float:left;
+	font:14px/30px "Î¢ÈíÑÅºÚ";
+	text-align:left;
+}
+
+
+.news_button{
+	width:50px;
+	height:20px;
+	float:left;
+	margin-left:65px;
+	font:15px/20px "ËÎÌå";
+	font-weight:bold;
+	text-align:left;
+	background-color:gray;
+	text-align:center;
+}
+
+.news_button a{
+	color:white;
+	text-decoration:none;
+}
+
+.news_button a:hover{
+	color:orange;
+}
+
+.newsform{
+	width:450px;
+	float:left;
+	margin-left:100px;
+	margin-top:50px;
+	text-align:left;
+	font:15px/20px "Î¢ÈíÑÅºÚ";
+	font-weight:bold;
+}
+
+
+.newsform_title{
+	width:450px;
+	height:40px;
+	clear:left;
+	float:left;
+	text-align:center;
+	font:20px/40px ¡°Î¢ÈíÑÅºÚ¡±;
+	font-weight:bold;
+}
+
+
+
+
+

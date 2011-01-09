@@ -1,0 +1,117 @@
+@CHARSET "UTF-8";
+
+
+
+
+
+
+.myinform{
+	width:300px;
+	clear:left;
+	float:left;
+	margin-top:50px;
+	margin-left:50px;
+	text-align:left;
+}
+
+.newslist_title{
+	width:300px;
+	height:40px;
+	clear:left;
+	float:left;
+	font:20px/40px "微软雅黑";
+	font-weight:bold;
+	text-align:left;
+}
+
+
+.single_news{
+	width:300px;
+	height:30px;
+	clear:left;
+	float:left;
+	margin-top:0px;
+}
+
+
+.news_title{
+	width:300px;
+	height:20px;
+	clear:left;
+	float:left;
+	font:15px/20px "微软雅黑";
+	text-align:left;
+}
+
+
+
+.news_title a{
+	color:black;
+	text-decoration:none;
+}
+
+.news_title a:hover{
+	color:orange;
+}
+
+
+
+.news_content{
+	width:400px;
+	float:left;
+	margin:0 auto;
+	margin-top:60px;
+	margin-left:50px;
+	border:1px solid black;
+	
+}
+
+
+.news_content_title{
+	width:400px;
+	height:40px;
+	clear:left;
+	float:left;
+	font:20px/40px "微软雅黑";
+	font-weight:bold;
+	text-align:center;
+}
+
+
+
+.news_content_time{
+	width:400px;
+	height:40px;
+	clear:left;
+	float:left;
+	font:14px/30px "微软雅黑";
+	text-align:left;
+}
+
+
+.news_content_c{
+	font:16px/30px "微软雅黑";
+	text-align:left;
+}
+
+
+.news_button{
+	width:50px;
+	height:20px;
+	float:left;
+	margin-left:20px;
+	font:15px/20px "宋体";
+	font-weight:bold;
+	text-align:left;
+	background-color:gray;
+	text-align:center;
+}
+
+.news_button a{
+	color:white;
+	text-decoration:none;
+}
+
+.news_button a:hover{
+	color:orange;
+}
