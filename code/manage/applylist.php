@@ -17,11 +17,17 @@ class applylist {
         return true;
 	}
 	
-	
+    public function get_apply_data($ititle,$itime,$eid){
+		$rlist = array();
+		$results = mysql_query("SELECT * FROM apply WHERE atitle='$ititle' AND atime='$itime' AND eid = '$eid' ");
+		$result = mysql_fetch_array($results);
+		return   $result[0].'|'.$result[1].'|'.$result[2].'|'.$result[3].'|'.$result[4];
+		
+	}
     
     public function edit_apply($old_title,$oldtime,$atitle,$atime,$acontent,$eid,$readyes){
         
-        if( !$this->check_apply($atitle,$atime,$eid) ){
+        if( !$this->check_apply($old_title,$oldtime,$eid) ){
 			echo 'ttttError,the apply does not exist';			
 			return false;
 		}

@@ -105,7 +105,6 @@
            <span class="choicel">通知标题:</span><input class="search_text" name="title" type="text"  /><br>
            
            <span class="choicel">通知对象:</span>
-           <input class="search_text" name="title" type="text"  />
            <?php 
            $elist = new employ_list();
            $ename_list = $elist ->get_eployname_list();

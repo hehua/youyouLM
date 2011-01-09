@@ -61,7 +61,7 @@ class administrator_list {
 		}
 		$results = mysql_query("SELECT * FROM administrator WHERE ad_id='$ad_id'");
 		$result = mysql_fetch_array($results);
-		return $result[0].'|'.$result[1].'|'.$result[2].'|'.$result[3].'|'.$result[4];
+		return $result[0].'|'.$result[1].'|'.$result[2].'|'.$result[3];
 	}
 	
 	

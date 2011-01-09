@@ -52,7 +52,7 @@
         <span  id="daohang_a"> <a href="admin.php">首 页</a></span>
        <span class="daohang_words" id="daohang_a"> <a href="inform_admin.php">通知管理</a></span>      
        <span class="daohang_words" id="daohang_a"> <a href="news_admin.php">公告管理</a></span>
-       <span class="daohang_words" id="daohang_a"> <a href="apply_single.php?name=0">请假处理<?php if($checknum!=0) {echo '('.$checknum.')';}?></a></span>
+       <span class="daohang_words" id="daohang_a"> <a href="apply_single.php?name=0">请假处理</a></span>
        <span class="daohang_words" id="daohang_a"> <a href="knows_admin.php">图书馆手册</a></span>
        <span class="daohang_words" id="daohang_a"> <a href="">退出</a></span>
      </div>

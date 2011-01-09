@@ -83,6 +83,8 @@ class informlist {
 		return $rlist;
 	}
 	
+  
+	
     public function get_all_list(){
 		$rlist = array();
 		$results = mysql_query("SELECT * FROM inform ");
@@ -103,6 +105,15 @@ class informlist {
 		}
 		print 'error';
 		return 'error';
+	}
+	
+	
+   public function get_inform_data($ititle,$itime,$eid){
+		$rlist = array();
+		$results = mysql_query("SELECT * FROM inform WHERE ititle='$ititle' AND itime='$itime' AND eid = '$eid' ");
+		$result = mysql_fetch_array($results);
+		return   $result[0].'|'.$result[1].'|'.$result[2].'|'.$result[3].'|'.$result[4];
+		
 	}
 	
     public function get_notread_list($eid){

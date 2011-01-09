@@ -1,0 +1,35 @@
+正常情况测试
+test add_knows(): 
+Error,the knows has already existttt|2010-10-10 12:12:12|123333 = ttt|2010-10-10 12:12:12|123333
+add_knows() ture 
+
+
+test edit_knows(): 
+edit_knows(ttt,2010-10-10 12:12:12,ttt,2010-10-10 12:12:12,hehehehheheh) 
+edit knows successfully 
+ttt|2010-10-10 12:12:12|hehehehheheh = ttt|2010-10-10 12:12:12|hehehehheheh 
+edit_knows() ture 
+
+
+test del_knows(): 
+del_knows(ttt,2010-10-10 12:12:12) 
+del knows successfully 
+check_knows(ttt,2010-10-10 12:12:12):公告ttt,2010-10-10 12:12:12does not exist 
+del_knows() ture 
+
+$yes = 'ture', 本块所有测试均正确
+
+
+
+异常情况测试
+非法添加：
+test add_knows(): 
+add_knows(ttt,2010-10-10 12:12:12,123333) 添加两次，是否有错误提示： 
+Error,the knows has already exist 
+第二次添加失败，异常处理成功，add_knows() ture 
+
+
+非法删除：
+test del_knows(temp,temp)，是否有错误提示： 
+Error,the knows does not exist 
+有错误提示，del_knows() true 

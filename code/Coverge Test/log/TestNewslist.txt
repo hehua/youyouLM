@@ -1,0 +1,35 @@
+正常情况测试
+test add_news(): 
+Error,the news has already existttt|2010-10-10 12:12:12|123333 = ttt|2010-10-10 12:12:12|123333
+add_news() ture 
+
+
+test edit_news(): 
+edit_news(ttt,2010-10-10 12:12:12,ttt,2010-10-10 12:12:12,hehehehheheh) 
+edit news successfully 
+ttt|2010-10-10 12:12:12|hehehehheheh = ttt|2010-10-10 12:12:12|hehehehheheh 
+edit_news() ture 
+
+
+test del_news(): 
+del_news(ttt,2010-10-10 12:12:12) 
+del news successfully 
+check_news(ttt,2010-10-10 12:12:12):公告ttt,2010-10-10 12:12:12does not exist 
+del_news() ture 
+
+$yes = 'ture', 本块所有测试均正确
+
+
+
+异常情况测试
+非法添加：
+test add_news(): 
+add_news(ttt,2010-10-10 12:12:12,123333) 添加两次，是否有错误提示： 
+Error,the news has already exist 
+第二次添加失败，异常处理成功，add_news() ture 
+
+
+非法删除：
+test del_news(temp,temp)，是否有错误提示： 
+Error,the news does not exist 
+有错误提示，del_news() true 
